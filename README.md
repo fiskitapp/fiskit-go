@@ -5,11 +5,11 @@
 Official client of the [FisKit](https://fiskit.com.ar) API: Argentine electronic invoices with ARCA (formerly AFIP) in a single request. Go 1.21 or later, standard library only.
 
 ```bash
-go get github.com/FidelGenre/fiskit-go
+go get github.com/fiskitapp/fiskit-go
 ```
 
 ```go
-import "github.com/FidelGenre/fiskit-go"
+import "github.com/fiskitapp/fiskit-go"
 
 client, err := fiskit.New("") // reads FISKIT_API_KEY
 
